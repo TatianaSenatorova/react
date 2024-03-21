@@ -1,16 +1,49 @@
 .App {
-  text-align: center;
+  text-align: start;
 }
 
-.box{
+.box {
   width: 500px;
   height: 500px;
   /* background-color: bisque; */
 }
 
-.css-13r4j3i .MuiTextField-root{
+.css-13r4j3i .MuiTextField-root {
   width: 100%;
 }
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 30px;
+}
+
+.container__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-box {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.list-item{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 /* .title{
   color: brown;
 } */
